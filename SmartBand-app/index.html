@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Band Monitor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Firebase + App JS -->
+  <script type="module" src="app.js"></script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg,#1e3c72,#2a5298);
+      color:white;
+      text-align:center;
+      margin:0;
+    }
+    h1 { padding:20px; }
+    .card {
+      background:#ffffff22;
+      margin:10px auto;
+      padding:15px;
+      width:300px;
+      border-radius:12px;
+      box-shadow:0 0 10px #0005;
+    }
+    .value { font-size:22px; font-weight:bold; }
+    #locationLink {
+      margin-top:10px;
+      display:none;
+      color:yellow;
+      font-weight:bold;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>Smart Band Live Monitor</h1>
+
+<div class="card">❤️ BPM: <span id="bpm" class="value">--</span></div>
+<div class="card">🩸 SpO2: <span id="spo2" class="value">--</span></div>
+<div class="card">🏃 Movement: <span id="move" class="value">--</span></div>
+<div class="card">😌 Stress: <span id="stress" class="value">--</span></div>
+<div class="card">💤 Sleep: <span id="sleep" class="value">--</span></div>
+<div class="card">🚨 SOS: <span id="sos" class="value">--</span>
+  <br>
+  <a id="locationLink" target="_blank">📍 View Location</a>
+</div>
+
+</body>
+</html>
