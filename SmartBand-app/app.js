@@ -9,9 +9,9 @@ import {
 
 // ---------- Firebase Config ----------
 const firebaseConfig = {
-  apiKey: "AIzaSyC8qKyT3aHZKJtu1mTLHY4JyJSU9cREGmk",
-  authDomain: "smart-band-2f441.firebaseapp.com",
-  projectId: "smart-band-2f441"
+  apiKey: "Your_Project_APIKey",
+  authDomain: "Your_Domain",
+  projectId: "Your Project ID"
 };
 
 const app = initializeApp(firebaseConfig);
@@ -108,7 +108,7 @@ function triggerSOS() {
       });
 
       // ---------- Auto Open WhatsApp ----------
-      const emergencyNumber = "919702570387"; // <-- Change if needed
+      const emergencyNumber = "91xxxxxxxx"; // <-- Change if needed
       const message = `🚨 SOS ALERT!\nUser needs help!\nLive Location:\n${mapLink}`;
 
       // Open WhatsApp in NEW TAB without closing website
@@ -127,3 +127,4 @@ window.open(
     { enableHighAccuracy: true, timeout: 10000 }
   );
 }
+
