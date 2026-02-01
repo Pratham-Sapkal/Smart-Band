@@ -14,10 +14,10 @@
 #define WIFI_PASSWORD   "11111111"
 
 // ---------- FIREBASE ----------
-#define API_KEY         "AIzaSyC8qKyT3aHZKJtu1mTLHY4JyJSU9cREGmk"
-#define FIREBASE_PROJECT_ID "smart-band-2f441"
-#define USER_EMAIL     "prathamsapkal87@gmail.com"
-#define USER_PASSWORD  "PaSsWoRd@9"
+#define API_KEY         "YOUR_API_KEY"
+#define FIREBASE_PROJECT_ID "YOUR_PROJECT_ID"
+#define USER_EMAIL     "YOUR_GMAIL"
+#define USER_PASSWORD  "YOUR_PASSWORD"
 
 FirebaseData fbdo;
 FirebaseAuth auth;
